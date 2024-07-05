@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --linearHeader1: #0170A5;
+  --linearHeader2: #005D89;
+}
+
+.bg-gradient-header {
+  background: linear-gradient(var(--linearHeader1), var(--linearHeader2));
+}
