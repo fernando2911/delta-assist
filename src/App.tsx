@@ -7,8 +7,8 @@ import { Logo } from './components/Img/Logo';
 const App: React.FC = () => {
   return (
     <div className="App">
-      <nav className="w-full bg-[#1a1a1e] pt-5">
-        <div className="container flex items-center px-4">
+      <nav className="w-full bg-[#1a1a1e] py-2">
+        <div className="container flex items-center px-3">
           <div className="flex items-center">
             <div className="text-white font-bold text-xl pl-[.5625rem]">
               <Logo />
